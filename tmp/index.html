@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>AskPupkin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+
+<div class="container">
+    <div id="header" class="row d-flex align-items-center">
+        <div class="col-4">
+            <h1>Stackoverflow</h1>
+        </div>
+        <div class="col-4">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="search">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                       aria-describedby="search">
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-3">
+                    <a href="#" style="text-decoration: underline;">log in</a>
+                </div>
+                <div class="col-3">
+                    <a href="#" style="text-decoration: underline;">register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <hr>
+        </div>
+    </div>
+    <div id="content" class="row">
+        <div class="col-8">
+            <div id="question" class="row">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-12 border border-dark big-avatar">
+                            <img src=" ./avatar.jpg" alt="avatar" class="img-fluid">
+                        </div>
+                        <div class="col-12 like">
+                            <button class="minus cursor">-</button>
+                            <span class="counter">0</span>
+                            <button class="plus cursor">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div id="question-details" class="row">
+                        <div class="col-12">
+                            <h3>How to build a moon park?</h3>
+                        </div>
+                        <div class="col-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="col-12">
+                            <p>Tags:
+                                <a href="#"  style="text-decoration: underline;">black-jack</a>
+                                <a href="#"  style="text-decoration: underline;">bender</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row border border-dark answer">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-12 border border-dark mini-avatar">
+                            <img src=" ./avatar.jpg" alt="avatar" class="img-fluid">
+                        </div>
+                        <div class="col-12 like">
+                            <button class="minus cursor">-</button>
+                            <span class="counter">0</span>
+                            <button class="plus cursor">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <p>First of all I would like to thank you for the inventation to participate in such a ... Russia
+                        is the huge territory which in many respects needs to be render habitable.</p>
+                </div>
+            </div>
+            <div class="row border border-dark answer">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-12 border border-dark mini-avatar">
+                            <img src=" ./avatar.jpg" alt="avatar" class="img-fluid">
+                        </div>
+                        <div class="col-12 like">
+                            <button class="minus cursor">-</button>
+                            <span class="counter">0</span>
+                            <button class="plus cursor">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <p>First of all I would like to thank you for the inventation to participate in such a ... Russia
+                        is the huge territory which in many respects needs to be render habitable.</p>
+                </div>
+            </div>
+            <hr>
+            <div id="new-answer" class="row">
+                <div class="col-12">
+                    <textarea class="form-control" placeholder="Enter your answer here.." rows="3"></textarea>
+                </div>
+                <div class="col-12 answer-button">
+                    <button type="button" class="btn btn-primary">Answer</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-12 right-side">
+                    <h3>Popular tags</h3>
+                    <span class="popular-tags">
+                        coursera python mysql django
+                    </span>
+                </div>
+                <div class="col-12 right-side">
+                    <h3>Best members</h3>
+                    <span class="best-members">
+                        <p><a href="#">Mr. Freeman</a></p>
+                        <p><a href="#">Dr. House</a></p>
+                        <p><a href="#">Bender</a></p>
+                        <p><a href="#">Queen Victoria</a></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="row"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+                  // Выбираем все элементы с классом like
+        const likes = document.querySelectorAll('.like');
+
+        // В каждом элементе выбираем плюс и минус. Навешиваем на событие клик функцию render()
+        likes.forEach(like => {
+          const plus = like.querySelector('.plus');
+          const minus = like.querySelector('.minus');
+          const counter_element = like.querySelector('.counter');
+
+          let counter = 0;
+
+          plus.addEventListener('click', () => {
+            render(++counter, counter_element);
+          });
+
+          minus.addEventListener('click', () => {
+            render(--counter, counter_element)
+          });
+        });
+
+        // Функция обновляет текст
+        const render = (counter, counter_element) => counter_element.innerText = counter;
+
+
+
+
+
+</script>
+</body>
+</html>

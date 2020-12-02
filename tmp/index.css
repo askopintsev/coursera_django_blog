@@ -1,0 +1,54 @@
+#header{
+  padding: 20px 0px 0px 0px;
+}
+#question{
+margin:0;
+}
+.big-avatar{
+  min-height: 100px;
+  position:relative;
+  margin: 0 auto;
+}
+.mini-avatar{
+  min-height: 70px;
+  max-width: 70%;
+  position:relative;
+  margin: 0 auto;
+}
+.answer{
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+}
+.answer-button{
+  margin-top: 15px;
+}
+/*right-side section*/
+.right-side{
+  margin: 30px 0px;
+}
+.popular-tags{
+    color: grey;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.best-members{
+text-decoration: underline;
+}
+/*likes section*/
+.like{
+  font-family: none;
+  user-select: none;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+.plus {
+ color:green;
+}
+.minus{
+  color:red;
+}
+.cursor{
+  cursor:pointer;
+  height: 25px;
+  width: 25px;
+}
